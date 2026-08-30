@@ -21,7 +21,7 @@ plt.plot(df['Time'], df['Reference'],
 
 # Plot the Generated Model (Red, dashed, overlaid)
 plt.plot(df['Time'], df['Generated'],
-         label='DeeoSeek Model $R_g(t)$',
+         label='DeepSeek Model $R_g(t)$',
          color='red', linestyle='--', linewidth=3)
 
 # 3. Academic Formatting (Titles, legends, and axes)

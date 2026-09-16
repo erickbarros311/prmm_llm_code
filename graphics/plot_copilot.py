@@ -27,7 +27,7 @@ plt.plot(df['Time'], df['Generated'],
 # 3. Academic Formatting (Titles, legends, and axes)
 plt.xlabel('Time ($t$)', fontsize=20)
 plt.ylabel('Reliability $R(t)$', fontsize=20)
-plt.title('Comparison of Reliability Models', fontsize=20)
+#plt.title('Comparison of Reliability Models', fontsize=20)
 
 # Axis tick marks/numbers fontsize
 plt.tick_params(axis='both', which='major', labelsize=18)

@@ -17,7 +17,7 @@ plt.figure(figsize=(10, 6))
 # Plot the Reference Model (Black, solid, thick)
 plt.plot(df['Time'], df['Reference'],
          label='Reference Model $R_r(t)$',
-         color='black', linestyle='-', linewidth=5)
+         color='black', linestyle='-', linewidth=3)
 
 # Plot the Generated Model (Red, dashed, overlaid)
 plt.plot(df['Time'], df['Generated'],
@@ -25,12 +25,12 @@ plt.plot(df['Time'], df['Generated'],
          color='red', linestyle='--', linewidth=3)
 
 # 3. Academic Formatting (Titles, legends, and axes)
-plt.xlabel('Time ($t$)', fontsize=18)
-plt.ylabel('Reliability $R(t)$', fontsize=18)
+plt.xlabel('Time ($t$)', fontsize=20)
+plt.ylabel('Reliability $R(t)$', fontsize=20)
 plt.title('Comparison of Reliability Models', fontsize=20)
 
 # Axis tick marks/numbers fontsize
-plt.tick_params(axis='both', which='major', labelsize=16)
+plt.tick_params(axis='both', which='major', labelsize=18)
 
 
 # Configure the legend for the top right corner
